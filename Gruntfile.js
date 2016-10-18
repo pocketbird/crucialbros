@@ -438,7 +438,6 @@ module.exports = function (grunt) {
     'copy:assemble',
     'useminPrepare',
     'concat',
-    'cssmin',
     'uglify',
     'imagemin',
     'svgmin',
