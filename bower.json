@@ -1,0 +1,9 @@
+{
+  "name": "crucialbros",
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize-css": "~3.0.2",
+    "modernizr": "~2.8.3"
+  },
+  "devDependencies": {}
+}
