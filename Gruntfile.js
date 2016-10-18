@@ -443,8 +443,7 @@ module.exports = function (grunt) {
     'imagemin',
     'svgmin',
     'rev',
-    'usemin',
-    'htmlmin'
+    'usemin'
   ]);
 
   grunt.registerTask('deploy', [
