@@ -679,23 +679,69 @@ th {
 /* Literal.Number.Integer.Long */
 
 /*# sourceMappingURL=syntax.css.map */
+@font-face {
+  font-family: 'Alien Encounters Italic';
+  src: url("http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.eot");
+  src: url("http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.eot?#iefix") format("embedded-opentype"), url("http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.woff2") format("woff2"), url("http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.woff") format("woff"), url("http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Pretendo';
+  src: url("Pretendo.eot");
+  src: url("Pretendo.eot?#iefix") format("embedded-opentype"), url("Pretendo.woff2") format("woff2"), url("Pretendo.woff") format("woff"), url("Pretendo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
-  background-color: #000; }
+  background-color: #000;
+  color: #fff; }
+
+a {
+  border-bottom: 1px solid red;
+  color: red;
+  text-decoration: none;
+  transition: all .2s ease-in-out; }
+  a:hover {
+    opacity: .9; }
 
 .container {
   margin: 0 auto;
-  max-width: 1200px; }
+  max-width: 1200px;
+  padding: .5em; }
 
-.content-primary {
-  background: url(/images/crucialBrosPhoto-web.png) no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  height: 100vh;
-  text-align: center; }
+.nav {
+  float: right; }
+  .nav__cta {
+    font-family: Helvetica;
+    font-weight: 900; }
+
+.content {
+  text-align: center;
+  width: 100%; }
+
+.heading {
+  font-family: "Alien Encounters Italic", Helvetica, sans-serif;
+  font-size: 1em;
+  display: inline-block;
+  margin: 0; }
+
+header {
+  padding: .5em .5em; }
+
+.tagline {
+  font-family: "Alien Encounters Italic", Helvetica, sans-serif;
+  font-size: .8em;
+  margin-bottom: 0;
+  text-transform: uppercase; }
+  .tagline__left {
+    display: block;
+    text-align: left; }
+  .tagline__right {
+    display: block;
+    text-align: right; }
 
 .img {
-  width: 400px; }
+  width: 100%; }
 
 /*# sourceMappingURL=screen.css.map */
