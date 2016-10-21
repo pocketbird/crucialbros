@@ -1,22 +1,83 @@
 body {
   background-color: #000;
+  color: #fff;
+}
+
+a {
+  border-bottom: 1px solid red;
+  color: red;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    // border-bottom-color: #fff;
+    opacity: .9;
+  }
 }
 
 .container {
   margin: 0 auto;
   max-width: 1200px;
+  padding: .5em;
 }
 
-.content-primary {
-  background: url(/images/crucialBrosPhoto-web.png) no-repeat center center fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  height: 100vh;
+.nav {
+  float: right;
+
+  &__cta {
+    font-family: Helvetica;
+    font-weight: 900;
+  }
+  // ul {
+  //   list-style-type: none;
+  //   margin: 1em 0 2em;
+  //   padding: 0;
+  //   text-align: center;
+  // }
+  //
+  // li {
+  //   display: inline-block;
+  //
+  //   &:not(:last-child) {
+  //     margin-right: 2em;
+  //   }
+  // }
+}
+
+.content {
   text-align: center;
+  width: 100%;
+}
+
+.heading {
+  font-family: $heading-font-family;
+  font-size: 1em;
+  display: inline-block;
+  margin: 0;
+}
+
+header {
+  padding: .5em .5em;
+}
+
+.tagline {
+  font-family: $heading-font-family;
+  font-size: 1em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+
+  &__left {
+    display: block;
+    text-align: left;
+  }
+
+  &__right {
+    display: block;
+    text-align: right;
+  }
 }
 
 .img {
-  width: 400px;
+  width: 100%;
+
 }
