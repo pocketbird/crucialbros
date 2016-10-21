@@ -687,7 +687,7 @@ body {
   max-width: 1200px; }
 
 .content-primary {
-  background: url(./images/crucialBros8Bit-web.png) no-repeat center center fixed;
+  background: url(/images/crucialBros8Bit-web.png) no-repeat center center fixed;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
