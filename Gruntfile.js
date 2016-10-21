@@ -239,6 +239,7 @@ module.exports = function (grunt) {
             //'./vendor/jquery/jquery.js',
             'favicon.ico',
             // 'apple-touch*.png'
+            'CNAME'
           ],
           dest: '<%= yeoman.dist %>'
         }]
