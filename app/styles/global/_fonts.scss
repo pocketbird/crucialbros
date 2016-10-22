@@ -1,21 +1,21 @@
 @font-face {
 	font-family: 'Alien Encounters Italic';
-	src: url('/fonts/AlienEncountersItalic.eot');
-	src: url('/fonts/AlienEncountersItalic.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/AlienEncountersItalic.woff2') format('woff2'),
-		url('/fonts/AlienEncountersItalic.woff') format('woff'),
-		url('/fonts/AlienEncountersItalic.ttf') format('truetype');
+	src: url('../fonts/AlienEncountersItalic.eot');
+	src: url('../fonts/AlienEncountersItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AlienEncountersItalic.woff2') format('woff2'),
+		url('../fonts/AlienEncountersItalic.woff') format('woff'),
+		url('../fonts/AlienEncountersItalic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'Pretendo';
-	src: url('/Pretendo.eot');
-	src: url('/Pretendo.eot?#iefix') format('embedded-opentype'),
-		url('/Pretendo.woff2') format('woff2'),
-		url('/Pretendo.woff') format('woff'),
-		url('/Pretendo.ttf') format('truetype');
+	src: url('../Pretendo.eot');
+	src: url('../Pretendo.eot?#iefix') format('embedded-opentype'),
+		url('../Pretendo.woff2') format('woff2'),
+		url('../Pretendo.woff') format('woff'),
+		url('../Pretendo.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
