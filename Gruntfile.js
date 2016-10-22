@@ -441,7 +441,6 @@ module.exports = function (grunt) {
     'concat',
     'uglify',
     'imagemin',
-    'svgmin',
     'usemin'
   ]);
 
