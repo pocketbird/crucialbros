@@ -681,8 +681,8 @@ th {
 /*# sourceMappingURL=syntax.css.map */
 @font-face {
   font-family: 'Alien Encounters Italic';
-  src: url(".http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.eot");
-  src: url(".http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.eot?#iefix") format("embedded-opentype"), url(".http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.woff2") format("woff2"), url(".http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.woff") format("woff"), url(".http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.ttf") format("truetype");
+  src: url("..http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.eot");
+  src: url("..http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.eot?#iefix") format("embedded-opentype"), url("..http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.woff2") format("woff2"), url("..http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.woff") format("woff"), url("..http://pocketbird.github.io/crucialbros/fonts/AlienEncountersItalic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic; }
 
