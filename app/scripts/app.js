@@ -63,7 +63,7 @@ var tid = setInterval( function () {
     // videoOverlay.src = '/images/silver-tv.png';
     videoContainer.style.width = '100%';
     videoPlayer.style.width = '100%';
-    videoPlayer.style.height = '600px';
+    videoPlayer.style.height = '80vh';
     videoOverlay.style.display = 'none';
     playVideoButton.style.display = 'none';
     e.preventDefault();
