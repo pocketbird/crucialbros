@@ -688,15 +688,15 @@ th {
 
 @font-face {
   font-family: 'Pretendo';
-  src: url("http://pocketbird.github.io/crucialbros/Pretendo.eot");
-  src: url("http://pocketbird.github.io/crucialbros/Pretendo.eot?#iefix") format("embedded-opentype"), url("http://pocketbird.github.io/crucialbros/Pretendo.woff2") format("woff2"), url("http://pocketbird.github.io/crucialbros/Pretendo.woff") format("woff"), url("http://pocketbird.github.io/crucialbros/Pretendo.ttf") format("truetype");
+  src: url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/Pretendo.eot");
+  src: url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/Pretendo.eot?#iefix") format("embedded-opentype"), url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/Pretendo.woff2") format("woff2"), url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/Pretendo.woff") format("woff"), url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/Pretendo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Press Start 2P';
-  src: url("http://pocketbird.github.io/crucialbros/PressStart2P.eot");
-  src: url("http://pocketbird.github.io/crucialbros/PressStart2P.eot?#iefix") format("embedded-opentype"), url("http://pocketbird.github.io/crucialbros/PressStart2P.woff2") format("woff2"), url("http://pocketbird.github.io/crucialbros/PressStart2P.woff") format("woff"), url("http://pocketbird.github.io/crucialbros/PressStart2P.ttf") format("truetype");
+  src: url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/PressStart2P.eot");
+  src: url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/PressStart2P.eot?#iefix") format("embedded-opentype"), url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/PressStart2P.woff2") format("woff2"), url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/PressStart2P.woff") format("woff"), url("http://pocketbird.github.io/crucialbroshttp://pocketbird.github.io/crucialbros/fonts/PressStart2P.ttf") format("truetype");
   font-weight: 500;
   font-style: normal; }
 
@@ -715,14 +715,10 @@ a {
 .container {
   margin: 0 auto;
   max-width: 1200px;
-  padding: .5em; }
-
-.nav__cta {
-  font-family: Helvetica;
-  font-weight: 900; }
+  padding: 0; }
 
 .content {
-  margin: 0 auto;
+  margin: 0 auto 3em;
   text-align: center;
   width: 100%; }
   @media (min-width: 768px) {
@@ -730,17 +726,20 @@ a {
       text-align: left; } }
 
 .heading {
-  display: inline;
   font-family: "Alien Encounters Italic", Helvetica, sans-serif;
   font-style: italic;
-  letter-spacing: 10px;
-  margin: 0; }
+  text-align: center;
+  text-transform: lowercase; }
+
+.main-cta {
+  font-family: "Press Start 2P", Helvetica, sans-serif;
+  font-size: 2em; }
 
 header {
-  padding: .5em;
-  text-align: center; }
+  padding: .5em; }
 
 footer {
+  font-family: "Pretendo", Helvetica, sans-serif;
   text-align: center; }
 
 .tagline {
@@ -757,11 +756,45 @@ footer {
     display: block;
     text-align: right; }
 
+.video-container {
+  height: 240px;
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+  text-align: center; }
+
+.video-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px; }
+
+.video-play-button {
+  border: 0;
+  color: #fff;
+  display: block;
+  font-family: "Press Start 2P", Helvetica, sans-serif;
+  font-size: .8em;
+  position: absolute;
+  left: 50px;
+  top: 90px;
+  z-index: 9; }
+
 .img {
-  height: 80vh; }
+  width: 100%; }
 
 .sr-only {
   position: absolute;
   right: 100000000px; }
+
+.play-button {
+  border: 0;
+  color: #fff;
+  display: block;
+  font-family: "Press Start 2P", Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  width: 100%; }
 
 /*# sourceMappingURL=screen.css.map */
