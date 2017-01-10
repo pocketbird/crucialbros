@@ -719,9 +719,6 @@ a {
   margin: 0 auto 3em;
   text-align: center;
   width: 100%; }
-  @media (min-width: 768px) {
-    .content {
-      text-align: left; } }
 
 .heading {
   font-family: "Alien Encounters Italic", Helvetica, sans-serif;
