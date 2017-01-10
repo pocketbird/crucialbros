@@ -24,10 +24,6 @@ a {
   margin: 0 auto 3em;
   text-align: center;
   width: 100%;
-
-  @media (min-width: 768px) {
-    text-align: left;
-  }
 }
 
 .heading {
