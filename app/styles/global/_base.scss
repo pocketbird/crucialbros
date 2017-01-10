@@ -10,7 +10,6 @@ a {
   transition: all .2s ease-in-out;
 
   &:hover {
-    // border-bottom-color: #fff;
     opacity: .9;
   }
 }
@@ -18,37 +17,11 @@ a {
 .container {
   margin: 0 auto;
   max-width: 1200px;
-  padding: .5em;
-}
-
-.nav {
-  // float: right;
-  // position: absolute;
-  // right: 0;
-  // top: .5em;
-
-  &__cta {
-    font-family: Helvetica;
-    font-weight: 900;
-  }
-  // ul {
-  //   list-style-type: none;
-  //   margin: 1em 0 2em;
-  //   padding: 0;
-  //   text-align: center;
-  // }
-  //
-  // li {
-  //   display: inline-block;
-  //
-  //   &:not(:last-child) {
-  //     margin-right: 2em;
-  //   }
-  // }
+  padding: 0;
 }
 
 .content {
-  margin: 0 auto;
+  margin: 0 auto 3em;
   text-align: center;
   width: 100%;
 
@@ -58,24 +31,26 @@ a {
 }
 
 .heading {
-  display: inline;
+  // display: inline;
   font-family: $heading-font-family;
-  // font-size: .7em;
-  // font-weight: normal;
-  // font-style: normal;
   font-style: italic;
-  letter-spacing: 10px;
-  margin: 0;
-  // text-transform: uppercase;
+  // margin: 0;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.main-cta {
+  font-family: $vg-font-family;
+  font-size: 2em;
 }
 
 header {
+  // margin-bottom: 1em;
   padding: .5em;
-  text-align: center;
 }
 
 footer {
-  // padding: 0 .5em;
+  font-family: $link-font-family;
   text-align: center;
 }
 
@@ -98,16 +73,53 @@ footer {
   }
 }
 
+.video-container {
+  height: 240px;
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.video {
+
+}
+
+.video-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+}
+
+.video-play-button {
+  border: 0;
+  color: #fff;
+  display: block;
+  font-family: $vg-font-family;
+  font-size: .8em;
+  position: absolute;
+  left: 50px;
+  top: 90px;
+  z-index: 9;
+}
+
 .img {
-
-  height: 80vh;
-
-  // @media (min-width: 768px) {
-    // width: 25%;
-  // }
+  width: 100%;
 }
 
 .sr-only {
   position: absolute;
   right: 100000000px;
+}
+
+.play-button {
+  border: 0;
+  color: #fff;
+  display: block;
+  font-family: $vg-font-family;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
 }
