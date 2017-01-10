@@ -22,7 +22,10 @@ a {
 }
 
 .nav {
-  float: right;
+  // float: right;
+  // position: absolute;
+  // right: 0;
+  // top: .5em;
 
   &__cta {
     font-family: Helvetica;
@@ -45,24 +48,42 @@ a {
 }
 
 .content {
+  margin: 0 auto;
   text-align: center;
   width: 100%;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .heading {
+  display: inline;
   font-family: $heading-font-family;
-  font-size: 1em;
-  display: inline-block;
+  // font-size: .7em;
+  // font-weight: normal;
+  // font-style: normal;
+  font-style: italic;
+  letter-spacing: 10px;
   margin: 0;
+  // text-transform: uppercase;
 }
 
 header {
-  padding: .5em .5em;
+  padding: .5em;
+  text-align: center;
+}
+
+footer {
+  // padding: 0 .5em;
+  text-align: center;
 }
 
 .tagline {
   font-family: $heading-font-family;
-  font-size: .8em;
+  font-size: 1.5em;
+  font-style: italic;
+  letter-spacing: 5px;
   margin-bottom: 0;
   text-transform: uppercase;
 
@@ -78,6 +99,15 @@ header {
 }
 
 .img {
-  width: 100%;
 
+  height: 80vh;
+
+  // @media (min-width: 768px) {
+    // width: 25%;
+  // }
+}
+
+.sr-only {
+  position: absolute;
+  right: 100000000px;
 }
